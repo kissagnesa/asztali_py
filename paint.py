@@ -33,7 +33,7 @@ def szinvalasztas():
         aktualis_szin = szin
 
 master = Tk()
-master.title("Egyszerű Paint")
+master.title("Paint")
 w = Canvas(master, width=800, height=600, bg="white")
 w.bind('<ButtonPress-1>', buttonclick)
 w.bind('<ButtonRelease-1>', buttonreleased)
